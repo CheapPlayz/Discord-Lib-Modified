@@ -1688,8 +1688,8 @@ function DiscordLib:Window(text)
 		ServerIco.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		ServerIco.BackgroundTransparency = 1.000
 		ServerIco.Position = UDim2.new(0.489361703, 0, 0.489361703, 0)
-		ServerIco.Size = UDim2.new(0, 26, 0, 26)
-		ServerIco.Image = "rblximageid"..img
+		ServerIco.Size = UDim2.new(0, 40, 0, 40)
+		ServerIco.Image = img
 
 		ServerWhiteFrame.Name = "ServerWhiteFrame"
 		ServerWhiteFrame.Parent = Server
