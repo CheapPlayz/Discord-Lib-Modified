@@ -86,6 +86,10 @@ Discord.Name = "ManagerV2"
 Discord.Parent = game.CoreGui
 Discord.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
+function DiscordLib:DestoryGUI()
+	Discord:Destroy
+end
+
 function DiscordLib:Window(text)
 	local currentservertoggled = ""
 	local minimized = false
