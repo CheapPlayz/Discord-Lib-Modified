@@ -82,9 +82,12 @@ local function MakeDraggable(topbarobject, object)
 end
 
 local Discord = Instance.new("ScreenGui")
-Discord.Name = "Manager V2"
 Discord.Parent = game.CoreGui
 Discord.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+function DiscordLib:GuiName(text)
+	Discord.Name = text
+end
 
 function DiscordLib:Window(text)
 	local currentservertoggled = ""
