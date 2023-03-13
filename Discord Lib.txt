@@ -87,7 +87,7 @@ Discord.Parent = game.CoreGui
 Discord.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 function DiscordLib:DestoryGUI()
-	Discord:Destroy
+	Discord:FindFirstChild("MainFrame"):Destroy
 end
 
 function DiscordLib:Window(text)
